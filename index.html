@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .hero-section {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .menu {
+            margin-top: 20px;
+        }
+
+        .menu a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            color: #ffff00;
+        }
+
+        .card-section {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            width: 300px;
+            margin: 0 10px 20px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-img {
+            width:200px;
+            height:200px;
+            overflow:hidden;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto 10px auto;
+        }
+
+        .card-img img {
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s;
+        }
+
+        .card-img img:hover {
+            transform: scale(1.2);
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-price {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .card-remark {
+            font-size: 14px;
+            color: #888888;
+        }
+
+        .footer-section {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- AI코딩 -->
+
+    <div class="hero-section">
+        <h1 class="text-center">조아하자의 부트스트랩 AI 중고나눔 사이트</h1>
+        <h2 class="text-center">무료나눔 중이니 많은 참여 바랍니다</h2>
+
+        <div class="menu">
+            <a href="https://www.instagram.com/zoahaza/" target="_blank">인스타그램</a>
+            <a href="https://www.youtube.com/@makerzoahaza" target="_blank">유튜브</a>
+            <a href="https://m.bunjang.co.kr/shop/12892574/products" target="_blank">번개장터 무료나눔</a>
+        </div>
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-img" onclick="window.open('https://m.bunjang.co.kr/products/223140639', '_blank');">
+                <img src="item001A.jpg" alt="치실 사진">
+            </div>
+            <h3 class="card-title">품목 이름: 치실 무료나눔</h3>
+            <p class="card-price">가격: 0원</p>
+            <p class="card-remark">비고: 싸고 저렴한 물건으로, 우편나눔 합니다. 우편배송비는 제가 부담하며, 배송에 7일 정도 걸리고 송장번호 등을 통한 배송조회가 되지 않습니다.</p>
+        </div>
+    
+        <div class="card">
+            <div class="card-img" onclick="window.open('https://m.bunjang.co.kr/products/223140639', '_blank');">
+                <img src="item002A.jpg" alt="카드명함 속지 사진">
+            </div>
+            <h3 class="card-title">품목 이름: 카드명함 속지 2개 무료나눔</h3>
+            <p class="card-price">가격: 0원</p>
+            <p class="card-remark">비고: 싸고 저렴한 물건으로, 우편나눔 합니다. 우편배송비는 제가 부담하며, 배송에 7일 정도 걸리고 송장번호 등을 통한 배송조회가 되지 않습니다.</p>
+        </div>
+    
+        <div class="card">
+            <div class="card-img" onclick="window.open('https://m.bunjang.co.kr/products/223140639', '_blank');">
+                <img src="item003A.jpg" alt="머리핀, 머리끈 사진">
+            </div>
+            <h3 class="card-title">품목 이름: 머리핀, 머리끈 여러개 무료나눔</h3>
+            <p class="card-price">가격: 0원</p>
+            <p class="card-remark">비고: 싸고 저렴한 물건으로, 우편나눔 합니다. 우편배송비는 제가 부담하며, 배송에 7일 정도 걸리고 송장번호 등을 통한 배송조회가 되지 않습니다.</p>
+        </div>
+    
+        <div class="card">
+            <div class="card-img" onclick="window.open('https://m.bunjang.co.kr/products/223140639', '_blank');">
+                <img src="item004A.jpg" alt="스마트폰 S10 보호필름 사진">
+            </div>
+            <h3 class="card-title">품목 이름: 갤럭시 S10용 보호필름 무료나눔</h3>
+            <p class="card-price">가격: 0원</p>
+            <p class="card-remark">비고: 싸고 저렴한 물건으로, 우편나눔 합니다. 우편배송비는 제가 부담하며, 배송에 7일 정도 걸리고 송장번호 등을 통한 배송조회가 되지 않습니다.</p>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <p>이 사이트의 내용은 최신이 아닙니다. 따라서 번개장터 판매 계정에 접속하셔서 최신 무료나눔 제품을 확인해 주세요.</p>
+    </div>
+
+</body>
+</html>
